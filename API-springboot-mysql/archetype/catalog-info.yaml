@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: archetype
+  description: An example of a Backstage archetype to create a SpringBoot app
+  annotations:
+    github.com/project-slug: tmirely/archetype
+spec:
+  type: website
+  owner: project@tw.com
+  lifecycle: experimental
